@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Page Configuration
 st.set_page_config(
-    page_title="Simphiwe Mngadi | Portfolio",
+    page_title="Anele Gumede | Portfolio",
     page_icon="📊",
     layout="wide"
 )
@@ -12,8 +12,8 @@ st.set_page_config(
 
 # Paths (DEPLOY SAFE)
 
-IMAGE_PATH = Path("assets/profile.jpg")
-CV_PATH = Path("assets/SIMPHIWE MNGADI_CV.2026.pdf")
+IMAGE_PATH = Path("assets/data_science.jpg")
+CV_PATH = Path("assets/ANE GUMEDE_CV.pdf")
 
 
 # Custom CSS
@@ -56,7 +56,7 @@ if menu == "Home":
             st.error("Profile image not found. Check assets/profile.jpg")
 
     with col2:
-        st.title("Simphiwe Mngadi")
+        st.title("Anele Gumede")
         st.subheader("Data Analyst | Data Science Graduate")
 
         st.write("""
@@ -71,7 +71,7 @@ if menu == "Home":
                 st.download_button(
                     label="📄 Download My CV",
                     data=pdf,
-                    file_name="Simphiwe_Mngadi_CV.pdf",
+                    file_name="ANE GUMEDE_CV.pdf",
                     mime="application/pdf"
                 )
         else:
@@ -133,6 +133,7 @@ elif menu == "Contact":
     - [GitHub](https://github.com/Simphiwemngadi)
     - [LinkedIn](https://www.linkedin.com/in/simphiwe-mngadi-745a23266/)
     """)
+
 
 
 
