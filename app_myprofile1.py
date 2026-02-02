@@ -113,7 +113,7 @@ elif menu == "Projects":
 elif menu == "Contact":
     st.header("Contact")
 
-    st.write(" **Phone:** 062 256 3045")
+    st.write(" **Phone:** 0622563045")
     st.write(" **Email:** analewendygumede@gmail.com")
     st.write(" **Location:** Western Cape, South Africa")
 
@@ -123,6 +123,7 @@ elif menu == "Contact":
     🔗 **Links**
     - [LinkedIn](https://www.linkedin.com/in/simphiwe-mngadi-745a23266/)
     """)
+
 
 
 
