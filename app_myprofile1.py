@@ -60,9 +60,9 @@ if menu == "Home":
         st.subheader("Data Analyst | Data Science Graduate")
 
         st.write("""
-        Detail-oriented Mathematical Sciences graduate with hands-on experience
-        in data analysis, machine learning, and business intelligence.
-        Passionate about transforming data into actionable insights to support
+        Detail-oriented Mathematical Sciences graduate with experience
+        in statistics, data analysis, machine learning.I am 
+        passionate about transforming data into actionable insights to support
         evidence-based decision-making.
         """)
 
@@ -83,10 +83,10 @@ elif menu == "About":
     st.header("About Me")
 
     st.write("""
-    I am a Mathematical Sciences graduate with experience in
-    **data analysis, machine learning, and statistical modelling**.
-    I enjoy working with real-world data to extract insights that
-    support academic and business decision-making.
+    I am an Advanced Diploma in Mathematical Sciences graduate with experience in
+    **statistics, machine learning, and data analytic**.
+    I love working with real-world data to extract insights that
+    support business decision-making.
     """)
 
     st.subheader("Technical Skills")
@@ -103,18 +103,9 @@ elif menu == "About":
 elif menu == "Projects":
     st.header("Projects")
 
-    st.subheader("Sales Interactive Dashboard | SQL & Power BI")
+    st.subheader("application of linear programming on work load balancing")
     st.write("""
-    - Identified products with gross margin below 30% using SQL  
-    - Built interactive Power BI dashboards for revenue and margin analysis  
-    - Provided data-driven pricing recommendations
-    """)
-
-    st.subheader("Customer Segmentation | Python")
-    st.write("""
-    - Performed EDA on demographic and economic data  
-    - Applied K-Means clustering with elbow-method optimisation  
-    - Visualised customer segments to support targeted marketing strategies
+    - Used linear programming to optimise work load balancing.
     """)
 
 # CONTACT
@@ -122,17 +113,17 @@ elif menu == "Projects":
 elif menu == "Contact":
     st.header("Contact")
 
-    st.write(" **Phone:** 067 976 8625")
-    st.write(" **Email:** mngadisimphiwe58@gmail.com")
+    st.write(" **Phone:** 062 256 3045")
+    st.write(" **Email:** analewendygumede@gmail.com")
     st.write(" **Location:** Western Cape, South Africa")
 
     
 
     st.markdown("""
     🔗 **Links**
-    - [GitHub](https://github.com/Simphiwemngadi)
     - [LinkedIn](https://www.linkedin.com/in/simphiwe-mngadi-745a23266/)
     """)
+
 
 
 
